@@ -10,7 +10,7 @@ $headers = "From: noreply@jayvanohendriks.gc-webhosting.nl\r\n"; // Zet hier je 
 $headers .= "Reply-To: $email\r\n";
 
 if (mail($to, $subject, $body, $headers)) {
-  echo "Mailtje gestuurd ouleh";
+  echo "Mailtje gestuurd!";
 } else {
-  echo "Niet gelukt niffo";
+  echo "Niet gelukt!";
 }
